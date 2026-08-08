@@ -78,3 +78,36 @@ if (number > 0){
 }else {
     console.log("Zero");
 }
+
+// switch Statement
+
+let day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("Start of the week");
+        break;
+
+    case "Saturday":
+        console.log("Weekend");
+        break;
+
+    case "Sunday":
+        console.log("Weekend");
+        break;
+
+    default:
+        console.log("Normal day");
+}
+
+
+
+
+// Ternary Operator ?
+
+
+let age = 20;
+
+let result = age >= 18 ? "Adult" : "Minor";
+
+console.log(result);
