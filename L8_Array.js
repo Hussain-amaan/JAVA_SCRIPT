@@ -236,3 +236,26 @@
 
 // console.log(numbers.slice(1,4))
 
+
+// #################################
+
+// splice()
+
+// let fruits = ["Mango", "Apple", "Orange", "Banana"];
+
+// fruits.splice(1, 2);
+
+// console.log(fruits);
+
+// #####################################
+
+// concat()
+
+// concat() is used to combine two or more arrays.
+
+let fruits1 = ["Mango", "Apple"];
+let fruits2 = ["Orange", "Banana"];
+
+let allFruits = fruits1.concat(fruits2);
+
+console.log(allFruits);
