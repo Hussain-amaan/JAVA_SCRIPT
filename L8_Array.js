@@ -87,3 +87,48 @@
 
 // ***************************************
 
+// let fruits=["mango","orange"];
+// fruits.push("Apple");
+
+// console.log(fruits)
+
+
+// ******************************************
+
+// let numbers = [10, 20, 30, 40, 50];
+// let sum=0
+// for(i=0;i<numbers.length;i++){
+//     sum+=numbers[i];
+// }
+// console.log(sum);
+
+// ****************************************
+
+// let numbers = [10, 20, 30, 40, 50];
+// numbers.forEach(function(numbers){
+//     new_number = numbers*2;
+//     console.log(new_number)
+// })
+
+
+// ************************************
+
+// let fruits = ["Apple","Mango","kiwi"];
+
+// fruits.forEach((fruits)=>{
+//     console.log(fruits);
+// });
+
+// #######################################
+
+// map() : 
+
+// let numbers = [5, 10, 15, 20, 25];
+
+// let new_N = numbers.map(number => number*3);
+// console.log(new_N)
+
+// ###########################################
+
+// filter() :
+
