@@ -132,3 +132,107 @@
 
 // filter() :
 
+// let numbers = [10, 15, 20, 25, 30, 35];
+
+// let Even_N = numbers.filter(number => {
+//     return number % 2 == 0;
+// });
+
+// console.log(Even_N)
+
+// #####################################
+//  Use find() to find the first number greater than 20.
+
+// let numbers = [5, 12, 18, 25, 30];
+
+// let new_number = numbers.find(number =>{
+//     return number >20 ;
+// });
+
+// console.log(new_number)
+
+
+// #######################################
+
+//  some() : answers a yes/no question
+
+// let numbers = [5, 12, 18, 25, 30];
+
+// let result = numbers.some(number => number > 20);
+
+// console.log(result);
+
+
+// ############################################
+
+// every()
+
+// every() is similar to some(), but there's an important difference:
+
+// some() → at least one element must satisfy the condition
+// every() → all elements must satisfy the condition
+
+
+// let numbers =[1,2,3,4,5,6,7,8]
+
+// let result =numbers.every(number => number > 10);
+
+// console.log(result);
+
+// #####################################################
+
+// reduce()
+
+// reduce() is used when you want to turn an entire array into one final value.
+
+
+// let numbers = [5, 10, 15, 20];
+
+// let total = numbers.reduce((sum, number) => {
+//     return sum + number;
+// });
+
+// console.log(total);
+
+
+// ##############################################
+
+// sort()
+
+// sort() is used to arrange the elements of an array.
+
+
+// let fruits = ["Mango", "Apple", "Orange", "Banana"];
+
+// fruits.sort();
+
+// console.log(fruits);
+
+// let numbers1 = [10, 5, 20, 2, 100];
+// let numbers2 = [10, 5, 20, 2, 100];
+// numbers1.sort((a,b)=>a-b);
+// numbers2.sort((a,b)=>b-a);
+
+
+// console.log(numbers1);
+
+// console.log(numbers2);
+
+// ###########################################
+
+// includes()
+// includes() checks whether an array contains a particular value.
+
+// let languages = ["JavaScript", "Python", "Java", "C++"];
+// console.log(languages.includes("Python"));
+
+// ############################################
+
+// slice()
+
+// slice() is used to extract/copy a portion of an array without changing the original array.
+
+// let numbers = [10, 20, 30, 40, 50];
+
+// console.log(numbers.slice(1,4))
+
