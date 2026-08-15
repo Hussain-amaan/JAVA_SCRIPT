@@ -1,148 +1,148 @@
-// let person = {
-//     name : "Amaan",
-//     age : 24,
-//     city : "Rajouri"
-// };
+let person = {
+    name : "Amaan",
+    age : 24,
+    city : "Rajouri"
+};
 
-// console.log(person);
+console.log(person);
 
 
 // Accessing Object Properties
 
-// let person = {
-//     name : "Amaan",
-//     age : 24,
-//     city : "Rajouri"
-// };
+let person = {
+    name : "Amaan",
+    age : 24,
+    city : "Rajouri"
+};
 
 
-// console.log(person.name);
-// console.log(person.age)
+console.log(person.name);
+console.log(person.age)
 
-// console.log(person['name']);
-// console.log(person['age']);
+console.log(person['name']);
+console.log(person['age']);
 
 
 // #####################################
 
 // Adding a Property
 
-// let person = {
-//     name : "Amaan",
-//     age : 24,
-//     city : "Rajouri"
-// };
-// person.country = "India";
+let person = {
+    name : "Amaan",
+    age : 24,
+    city : "Rajouri"
+};
+person.country = "India";
 
-// console.log(person);
+console.log(person);
 
 
 // ############################################
 
 // Changing a Property
 
-// let person = {
-//     name : "Amaan",
-//     age : 24,
-//     city : "Rajouri"
-// };
+let person = {
+    name : "Amaan",
+    age : 24,
+    city : "Rajouri"
+};
 
-// person.age = 23;
+person.age = 23;
 
-// console.log(person)
+console.log(person)
 
 // ############################################
 
 // Deleting a Property
 
-// let person = {
-//     name : "Amaan",
-//     age : 24,
-//     city : "Rajouri"
-// };
+let person = {
+    name : "Amaan",
+    age : 24,
+    city : "Rajouri"
+};
 
-// delete person.city
+delete person.city
 
-// console.log(person);
+console.log(person);
 
 
 // ####################################
 
 // Objects Can Contain Different Data Types
 
-// let student = {
-//     name: "Amaan",
-//     age: 22,
-//     isStudent: true,
-//     marks: [80, 75, 90]
-// };
-// console.log(student)
+let student = {
+    name: "Amaan",
+    age: 22,
+    isStudent: true,
+    marks: [80, 75, 90]
+};
+console.log(student)
 
 
 // #################################
 
 // Object with a Function
 
-// let person = {
-//     name: "Amaan",
+let person = {
+    name: "Amaan",
 
-//     greet: function() {
-//         console.log("Hello!");
-//     }
-// };
+    greet: function() {
+        console.log("Hello!");
+    }
+};
 
-// person.greet();
+person.greet();
 
 // ####################################
 // this in Objects
 
-// let person = {
-//     name: "Amaan",
+let person = {
+    name: "Amaan",
 
-//     greet: function() {
-//         console.log("Hello " + this.name);
-//     }
-// };
+    greet: function() {
+        console.log("Hello " + this.name);
+    }
+};
 
-// person.greet();
+person.greet();
 
 // ######################################
 
 // Nested Objects
 
-// let student = {
-//     name: "Amaan",
+let student = {
+    name: "Amaan",
 
-//     address: {
-//         city: "Rajouri",
-//         state: "Jammu & Kashmir"
-//     }
-// };
+    address: {
+        city: "Rajouri",
+        state: "Jammu & Kashmir"
+    }
+};
 
-// console.log(student.address.city)
+console.log(student.address.city)
 
 
 // ########################################
 
 // Array of Objects
 
-// let students = [
-//     {
-//         name: "Amaan",
-//         age: 22
-//     },
-//     {
-//         name: "Rahul",
-//         age: 21
-//     },
-//     {
-//         name: "Fahad",
-//         age: 23
-//     }
-// ];
+let students = [
+    {
+        name: "Amaan",
+        age: 22
+    },
+    {
+        name: "Rahul",
+        age: 21
+    },
+    {
+        name: "Fahad",
+        age: 23
+    }
+];
 
-// console.log(students[0].name);
-// console.log(students[0].age);
+console.log(students[0].name);
+console.log(students[0].age);
 
 
 // #################################
@@ -158,3 +158,20 @@ let student = {
 };
 
 student.greet();
+
+// #####################################
+
+// Object + Array + map()
+// Use map() to create a new array containing only the student names.
+
+let students = [
+    { name: "Amaan", marks: 85 },
+    { name: "Rahul", marks: 72 },
+    { name: "Fahad", marks: 91 }
+];
+
+names_S=students.map(student =>{
+    return student.name;
+})
+
+console.log(names_S)
